@@ -4,7 +4,9 @@
 
 This project is built with Node.js on Raspberry Pi Zero W. It connects to Positive Grid Spark amp over bluetooth connection and allows users to change preset 1-4 by tapping Up/Down, and turn individual Drive/Mod/Delay on/off by tapping its individual switch, like other commmon multi-effect pedal control apprach.
 
-[Demo Video](https://www.youtube.com/watch?v=vtwOtqVu9dQ)
+[Demo video here](https://www.youtube.com/watch?v=vtwOtqVu9dQ)
+
+↓↓↓↓↓ Fun Time ↓↓↓↓↓
 ![Demo image](/assets/demo_1.jpg?raw=true "Fun Time")
 
 This project is inspired by Justin's [tinderboxpedal project](https://github.com/jrnelson90/tinderboxpedal), and [Morgan's command list](https://blog.studioblip.com/guitar/amps/spark/footpedalV1) was a great help for verifying my findings. 
