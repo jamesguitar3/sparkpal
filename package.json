@@ -1,0 +1,31 @@
+{
+  "name": "sparkpal",
+  "version": "1.0.0",
+  "description": "A bluetooth pedal module for PG Spark amp",
+  "main": "sparkpal",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamesguitar3/sparkpal.git"
+  },
+  "keywords": [
+    "bluetooth",
+    "pedal",
+    "spark"
+  ],
+  "author": "James Liu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamesguitar3/sparkpal/issues"
+  },
+  "homepage": "https://github.com/jamesguitar3/sparkpal#readme",
+  "dependencies": {
+    "i2c-bus": "^5.2.1",
+    "node-bluetooth": "^1.2.6",
+    "oled-font-5x7": "^1.0.3",
+    "oled-i2c-bus": "^1.0.11",
+    "rpi-gpio": "^2.1.7"
+  }
+}
