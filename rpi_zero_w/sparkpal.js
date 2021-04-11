@@ -207,19 +207,19 @@ gpio.on('change', (ch, value)=>{
     if (value === true){                              
         switch(ch){
             case presetUp:
-                debounce(switchPreset("up"), 200, true);    
+                debounce(switchPreset("up"), 10, true);    
                 break;
             case presetDown:
-                debounce(switchPreset("down"), 200, true);    
+                debounce(switchPreset("down"), 10, true);    
                 break;            
             case driveToggle:
-                debounce(toggleFXStatus("drive"), 200, true);                
+                debounce(toggleFXStatus("drive"), 10, true);                
                 break;
             case modToggle:
-                debounce(toggleFXStatus("mod"), 200, true);
+                debounce(toggleFXStatus("mod"), 10, true);
                 break;
             case delayToggle:
-                debounce(toggleFXStatus("delay"), 200, true);
+                debounce(toggleFXStatus("delay"), 10, true);
                 break;
         }     
     }

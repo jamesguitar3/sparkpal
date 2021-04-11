@@ -7,23 +7,22 @@ This project is built with Node.js on Raspberry Pi Zero W. It connects to Positi
 [Demo video here](https://www.youtube.com/watch?v=vtwOtqVu9dQ)
 
 ↓↓↓↓↓ Fun Time ↓↓↓↓↓
-![Demo image](/assets/demo_1.jpg?raw=true "Fun Time")
+![Demo image](/assets/demo_esp32.jpg?raw=true "esp32")
+(Was originally using RPI Zero W for the proof-of-concept, but switched to esp32 eventually)
+![Demo image](/assets/demo_rpi.jpg?raw=true "rpi")
 
-This project is inspired by Justin's [tinderboxpedal project](https://github.com/jrnelson90/tinderboxpedal), and [Morgan's command list](https://blog.studioblip.com/guitar/amps/spark/footpedalV1) was a great help for verifying my findings. 
+> Choose either the esp32 or RPI_Zero_W version for your build. I personally has swtiched to esp32.
 
-## Hardware
-* Raspberry Pi Zero W (with bluetooth module) with micro SD card
-* SSD1306 OLED LCD
-* 5 normally open switches
-* 3mm LEDs X 3 and resistors 
-* Enclosure box(I haven't decided yet, so let me know if any recommendations.)
+> This project is inspired by Justin's [tinderboxpedal project](https://github.com/jrnelson90/tinderboxpedal), and [Morgan's command list](https://blog.studioblip.com/guitar/amps/spark/footpedalV1) was a great help for verifying my findings. 
 
-### Software
-* Install Raspberry Pi OS Lite through the [RPI Imager](https://www.raspberrypi.org/software/)
-* Node.js for armv6l [Instructions](https://www.thepolyglotdeveloper.com/2018/03/install-nodejs-raspberry-pi-zero-w-nodesource/)
+[esp32](/esp32/)
 
+[RPI_Zero_W](/rpi_zero_w/)
 
-### Environment Setup
-* Execute `sudo raspi-config`, go to "Interfacing Options" and enable I2C (for the OLED display)
-* Execute `sudo apt-get install build-essential libbluetooth-dev`
-* Execute `npm install` in the project folder to install the libs
+## Why two versions (esp32 vs RPI Zero W)?
+Well, RPI Zero W is great and offers a lot of possibilities, but there are two things I dislike for this specific use case:
+    1. ~50 seconds boot time
+        I like my pedal ready to use as soon as possibe after turned on, and I think this 50 seconds booting time was dragging me away from wanna play it.
+    2. Need safe-shutdown circuit
+        While I had came up with a circuit using 2N5460 P-channel JFET and Adafruit PowerBoost 500 to allow it to safely shutdown, it wasn't the stablest thing. I've found it failed to function as expected a few times especially when the batter power level was low. I think there are ways to improve this, but I was just ready 
+        to try the esp32 version
