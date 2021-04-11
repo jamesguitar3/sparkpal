@@ -4,7 +4,8 @@
 
 This project is built with Node.js on Raspberry Pi Zero W. It connects to Positive Grid Spark amp over bluetooth connection and allows users to change preset 1-4 by tapping Up/Down, and turn individual Drive/Mod/Delay on/off by tapping its individual switch, like other commmon multi-effect pedal control apprach.
 
-[Demo video here](https://www.youtube.com/watch?v=vtwOtqVu9dQ)
+[Demo video (esp32)](https://www.youtube.com/watch?v=yrR9ToybDG8)
+[POC video (rpi_zero_w)](https://www.youtube.com/watch?v=vtwOtqVu9dQ)
 
 ↓↓↓↓↓ Fun Time ↓↓↓↓↓
 ![Demo image](/assets/demo_esp32.jpg?raw=true "esp32")
