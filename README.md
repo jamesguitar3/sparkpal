@@ -4,8 +4,8 @@
 
 This project is built with Node.js on Raspberry Pi Zero W. It connects to Positive Grid Spark amp over bluetooth connection and allows users to change preset 1-4 by tapping Up/Down, and turn individual Drive/Mod/Delay on/off by tapping its individual switch, like other commmon multi-effect pedal control apprach.
 
-[Demo video (esp32)](https://www.youtube.com/watch?v=yrR9ToybDG8)
-[POC video (rpi_zero_w)](https://www.youtube.com/watch?v=vtwOtqVu9dQ)
+* [Demo video (esp32)](https://www.youtube.com/watch?v=yrR9ToybDG8)
+* [POC video (rpi_zero_w)](https://www.youtube.com/watch?v=vtwOtqVu9dQ)
 
 ↓↓↓↓↓ Fun Time ↓↓↓↓↓
 ![Demo image](/assets/demo_esp32.jpg?raw=true "esp32")
@@ -16,9 +16,8 @@ This project is built with Node.js on Raspberry Pi Zero W. It connects to Positi
 
 > This project is inspired by Justin's [tinderboxpedal project](https://github.com/jrnelson90/tinderboxpedal), and [Morgan's command list](https://blog.studioblip.com/guitar/amps/spark/footpedalV1) was a great help for verifying my findings. 
 
-[esp32](/esp32/)
-
-[RPI_Zero_W](/rpi_zero_w/)
+* [esp32](/esp32/)
+* [RPI_Zero_W](/rpi_zero_w/)
 
 ## Why two versions (esp32 vs RPI Zero W)?
 Well, RPI Zero W is great and offers a lot of possibilities, but there are two things I dislike for this specific use case:
