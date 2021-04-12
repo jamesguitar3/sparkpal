@@ -19,6 +19,7 @@ I switched from Raspberry Pi Zero to esp32 due to rpi's long booting time and th
 * Enclosure box
   https://www.amazon.com/gp/product/B00HKIRKRQ/
 * 3mm LEDs X 4 and resistors   
+  Use the [LED resistor calculator](https://www.make-it.ca/led-dropping-resistor-calculator/) to find the resistors needed for your LEDs.
 
 ## Wiring
 ![wiring image](../assets/SparkPal_esp32_wiring.jpg?raw=true "wiring")
