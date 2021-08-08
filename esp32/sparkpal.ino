@@ -279,12 +279,12 @@ void parseASCIIToFXStats() {
   for (int fxType = 0; fxType < 3; fxType++) {
     if (fxType == 0) { //Drive
       fxTypeString = "Drive";
-      totalPedalCount = 9;
+      totalPedalCount = 10;
       LEDPin = LED_DRIVE_GPIO;
     }
     else if (fxType == 1) { //Mod
       fxTypeString = "Mod";
-      totalPedalCount = 10;
+      totalPedalCount = 12;
       LEDPin = LED_MOD_GPIO;
     }
     else if (fxType == 2) { //Delay
